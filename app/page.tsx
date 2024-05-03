@@ -12,11 +12,9 @@ export default async function Home() {
 
   return (
     <div>
-      <p>
-        <h1 className="text-center mt-8 mb-6 text-4xl">
-          Todo List With JSON Placeholder and React Server Component
-        </h1>
-      </p>
+      <h1 className="text-center mt-8 mb-6 text-4xl">
+        Todo List With JSON Placeholder and React Server Component
+      </h1>
 
       <div className="flex flex-wrap justify-center gap-4">
         {todoListData.map((todo: any) => (
